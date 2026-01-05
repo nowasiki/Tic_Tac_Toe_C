@@ -50,18 +50,6 @@ void player_move(char board[ROW][COL], int row, int col) {
 	}
 }
 void computer_move(char board[ROW][COL], int row, int col){
-	printf("\n<%d>", step);
-	step++;
-	printf("COMPUTER IS PLACING!\n");
-	int x = rand() % row;
-	int y = rand() % col;
-	while (board[x][y] != ' ') {
-		x = rand() % row;
-		y = rand() % col;
-	}
-	board[x][y] = '$';
-	Sleep(2000); // Pause for 2 seconds to simulate thinking time
-	printf("\nYOUR TIME NOW!\n");
 }
 
 // 0:continue 1:player win 2:computer win 3:draw
