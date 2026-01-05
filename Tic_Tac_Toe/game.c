@@ -50,6 +50,19 @@ void player_move(char board[ROW][COL], int row, int col) {
 	}
 }
 void computer_move(char board[ROW][COL], int row, int col){
+ 	int x = 0, y = 0;
+	printf("<%d>", step); // Display the current step number
+	printf("COMPUTER'S TURN!\n");
+	while (1) {
+		x = rand() % row;
+		y = rand() % col;
+		if (board[x][y] == ' ') {
+			board[x][y] = '$'; // Computer's move
+			printf("COMPUTER PLACED AT (%d, %d)!\n", x + 1, y + 1);
+			step++;
+			break;
+		}
+	}
 }
 
 // 0:continue 1:player win 2:computer win 3:draw
