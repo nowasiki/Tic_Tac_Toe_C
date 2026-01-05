@@ -30,7 +30,6 @@ void start_game(int num) {
 	printf("*********************************\n");
 }
 int main() {
-	printf("Hello,GIT!\n");
 	srand((unsigned int)time(NULL));
 	int input = 0, num;
 	do {
