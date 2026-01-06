@@ -23,9 +23,9 @@
 
 ![主界面](images/main.png)
 
-![添加学生](images/add_student.png)
+![对战部分](images/battle.png)
 
-![查询结果](images/search.png)
+![主要代码展示](images/main_fuction.png)
 
 
 ## 如何运行项目
