@@ -69,6 +69,3 @@
 > 欢迎 Star ⭐ 和 Fork！如果代码有问题或建议，欢迎提 Issue～
 
 感谢查看我的项目！
-
-## ⭐
-[![Stargazers over time](https://starchart.cc/InvertGeek/MixFile.svg?variant=adaptive)](https://github.com/nowasiki/Tic_Tac_Toe_C)
